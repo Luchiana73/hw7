@@ -28,10 +28,5 @@ for (let player of players) {
   Math.max(...bestScore);
 };
 
-
-const bestPlayer = players.filter(player => {
-  if (player.scorePoints == Math.max(...bestScore)) {
-    return true
-  }
-})
-console.log(bestPlayer);
+const bestPlayer = players.filter(player => player.scorePoints == Math.max(...bestScore))
+console.log(bestPlayer)
