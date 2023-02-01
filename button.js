@@ -4,8 +4,7 @@ class Button {
     this.width = width;
     this.type = type;
     this.color = color;
-    this.props =
-      this.height + " " + this.width + " " + this.type + " " + this.color;
+    this.props = `${this.height}, ${this.width}, ${this.type}, ${this.color}`;
   }
   onClick() {
     return this.props;
