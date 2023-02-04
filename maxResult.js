@@ -35,3 +35,4 @@ for (let player of players) {
 }
 console.log(bestPlayer);
 console.log(maxResult);
+console.log(`The player with the best score is ${bestPlayer} and his score is ${maxResult}`)
